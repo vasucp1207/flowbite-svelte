@@ -17,7 +17,7 @@
 
   onMount(() => {
     intervalId = setInterval(() => {
-      if (Math.abs(offset) >= marquee?.offsetWidth) {
+      if (Math.abs(offset) >= marquee.offsetWidth) {
         offset = 0;
       } else {
         if (isHovering) offset -= hoverSpeed;
